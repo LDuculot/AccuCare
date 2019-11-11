@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccuCare</string>
+    <string name="titre">Charge</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="notif_charge_title">Batterie chargée</string>
+    <string name="notif_charge">Le niveau de charge souhaité est atteint. Débranchez votre appareil !</string>
+    <string name="notif_discharge_title">Batterie déchargée</string>
+    <string name="notif_discharge">Le niveau de batterie est trop faible. Rechargez votre appareil !</string>
+    <string name="title_activity_my_settings">Paramètres</string>
+    <string name="title_preference_battery">Niveaux de batterie</string>
+    <string name="limitecharge">Limite de charge (%)</string>
+    <string name="limitedischarge">Limite de décharge (%)</string>
+    <string name="title_preference_vibrator">Vibreur</string>
+    <string name="vibeduration">Durée de vibration (ms)</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_preference_battery">
+        <SeekBarPreference
+            android:key="seekBarPrefCharge"
+            android:title="@string/limitecharge"
+            android:max="100"
+            android:defaultValue="85"
+            android:progress="5"/>
+
+        <SeekBarPreference
+            android:key="seekBarPrefDischarge"
+            android:title="@string/limitedischarge"
+            android:defaultValue="20"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_preference_vibrator">
+        <SeekBarPreference
+            android:key="seekBarPref"
+            android:title="@string/vibeduration"
+            android:max="1500"
+            android:defaultValue="500"/>
+    </PreferenceCategory>
+</PreferenceScreen>
